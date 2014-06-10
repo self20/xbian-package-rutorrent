@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ "$1" == "remove" ] || [ "$1" == "purge" ]; then
+
+
+# removing config files should be performed only if user requested purge
+
+	if [ "$1" == "purge" ]; then
+
+	fi
+
+	true
+
+fi

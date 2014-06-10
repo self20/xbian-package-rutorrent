@@ -1,0 +1,10 @@
+Origin: XBian
+Package: xbian-package-rutorrent
+Version: 3.6
+Section: net
+Priority: optional
+Architecture: armhf
+Depends: php5-fpm, nginx, php5-cli, unrar
+Conflicts: 
+Maintainer: koper89
+Description: rutorrent - rtorrent web frontend with nginx and php5-fpm configured for XBian
